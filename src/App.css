@@ -64,3 +64,39 @@
   width: 609px;
   height: 606px;
 }
+
+/* TshirtPage */
+.tshirt {
+  width: 609px;
+  height: 606px;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+}
+
+.specs {
+  text-align: center;
+}
+
+/* Hoodie */
+.hoodie {
+  width: 609px;
+  height: 606px;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+}
+
+.specs {
+  text-align: center;
+}

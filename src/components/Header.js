@@ -5,7 +5,7 @@ const Header = ({cartCount}) => {
   return (
     <div className='nav'>
         <div className='nav-logo'>S</div>
-        <h4>Shoes Mcgee's Store</h4>
+        <h1>Shoes Mcgee's Store</h1>
         {/* <img src={MagnifyingGlass}/> */}
         <div className='cart'>
             <img src={ShoppingCart} alt=''/>
