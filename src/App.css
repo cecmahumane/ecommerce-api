@@ -1,3 +1,9 @@
+/* App */
+.body {
+  display: flex;
+  justify-content: center;
+}
+
 /* Header */
 .nav {
   width: 100%;
@@ -24,4 +30,37 @@
 
 .cart {
   margin-right: 65px;
+  display: flex;
+}
+
+.cart-counter {
+  width: 25px;
+  height: 25px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+  position: relative;
+  top: -10px;
+  right: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+/* Product box  */
+.product-box {
+  width: 1240px;
+  height: 606px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+/* Product */
+.product {
+  width: 609px;
+  height: 606px;
 }
