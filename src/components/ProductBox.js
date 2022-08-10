@@ -8,6 +8,7 @@ const ProductBox = () => {
     let greyHoodie = Greyhoodie;
     let greyTshirt = Greytshirt;
 
+    //This is entry point for JSON get all request
     let clothingArray = [greyHoodie, greyTshirt];
 
     let products = clothingArray.map((product) => {

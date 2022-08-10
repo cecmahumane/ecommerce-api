@@ -100,3 +100,64 @@
 .specs {
   text-align: center;
 }
+
+/* CheckoutPage */
+.cart-row-box {
+  width: 90%;
+}
+
+/* Cart Items */
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Register */
+.register {
+  margin-top: 50px;
+  width: 346px;
+  height: 554px;
+  box-shadow: 10px 10px 25px grey;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.profile-image {
+  height: 99px;
+  width: 99px;
+  background: grey;
+  border-radius: 50px;
+  /* margin-top: 41px; */
+  margin: 41px auto 20px;
+}
+
+.username {
+  font-size: 15px;
+  margin-bottom: 11px;
+  border-radius: 5px;
+  height: 43px;
+  width: 267px;
+}
+
+.password {
+  font-size: 15px;
+  margin-bottom: 11px;
+  border-radius: 5px;
+  height: 43px;
+  width: 267px;
+}
+
+.confirm-password {
+  font-size: 15px;
+  margin-bottom: 11px;
+  border-radius: 5px;
+  height: 43px;
+  width: 267px;
+}
+
+.register-button {
+  height: 35px;
+  width: 266px;
+  margin-top: 13px;
+}

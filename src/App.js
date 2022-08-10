@@ -4,6 +4,8 @@ import Header from './components/Header';
 import ProductBox from './components/ProductBox';
 import TshirtPage from './components/TshirtPage';
 import HoodiePage from './components/HoodiePage';
+import CheckoutPage from './components/CheckoutPage';
+import Register from './components/Register';
 
 function App() {
   
@@ -11,8 +13,10 @@ function App() {
     <div className='main-container'>
       <Header/>
       <div className='body'>
+        <Register/>
+        {/* <CheckoutPage/> */}
         {/* <TshirtPage/> */}
-        <HoodiePage />
+        {/* <HoodiePage /> */}
        {/* <ProductBox/> */}
       </div>
     </div>
