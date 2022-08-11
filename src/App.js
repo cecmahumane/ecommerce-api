@@ -6,6 +6,7 @@ import TshirtPage from './components/TshirtPage';
 import HoodiePage from './components/HoodiePage';
 import CheckoutPage from './components/CheckoutPage';
 import Register from './components/Register';
+import Login from './components/Login';
 
 function App() {
   
@@ -13,8 +14,9 @@ function App() {
     <div className='main-container'>
       <Header/>
       <div className='body'>
-        <Register/>
-        {/* <CheckoutPage/> */}
+        {/* <Login/> */}
+        {/* <Register/> */}
+        <CheckoutPage/>
         {/* <TshirtPage/> */}
         {/* <HoodiePage /> */}
        {/* <ProductBox/> */}
